@@ -20,7 +20,8 @@ class JConfig {
 	public $live_site = '';
 	public $secret = 'xHAU1fId9cPlRfK1';
 	public $gzip = '0';
-	public $error_reporting = 'none';
+	// public $error_reporting = 'none';
+	public $error_reporting = 'default';
 	// public $error_reporting = 'maximum';
 
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';

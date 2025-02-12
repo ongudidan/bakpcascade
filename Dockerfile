@@ -1,5 +1,8 @@
 # Use PHP 5.6 with an older Debian base
-FROM php:5.6-apache
+# FROM php:5.6-apache
+
+FROM nibrev/php-5.3-apache
+
 
 # Set working directory
 WORKDIR /var/www/html
@@ -29,6 +32,10 @@ RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 777 /var/www/html/logs \
     && chmod -R 777 /var/www/html/tmp \
     && chmod -R 777 /var/www/html/administrator/cache
+
+
+RUN echo "magic_quotes_gpc = Off" >> /usr/local/etc/php/php.ini
+
 
 # Expose Apache's default port
 EXPOSE 80
