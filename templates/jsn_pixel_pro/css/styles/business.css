@@ -1,0 +1,50 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:regular,bold);
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body #jsn-menu a,
+body #jsn-menu span,
+body #jsn-gotoplink,
+body .componentheading,
+body .contentheading,
+body .pathway {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+body.jsn-specialfont h1,
+body.jsn-specialfont h2,
+body.jsn-specialfont h3,
+body.jsn-specialfont h4,
+body.jsn-specialfont h5,
+body.jsn-specialfont h6,
+body.jsn-specialfont #jsn-menu a,
+body.jsn-specialfont #jsn-menu span,
+body.jsn-specialfont #jsn-gotoplink,
+body.jsn-specialfont .componentheading,
+body.jsn-specialfont .contentheading,
+body.jsn-specialfont .pathway {
+	font-family: Lato, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+body.jsn-textsize-small {
+	font-size: 65%;
+}
+body.jsn-textsize-medium {
+	font-size: 75%;
+}
+body.jsn-textsize-big {
+	font-size: 85%;
+}
+body.jsn-textstyle-business.jsn-specialfont ul.menu-mainmenu ul li a {
+	font-size: 1.1em;
+}

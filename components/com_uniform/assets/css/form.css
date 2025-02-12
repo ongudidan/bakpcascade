@@ -1,0 +1,303 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package
+ * @version $Id:
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+*/
+.jsn-uniform.jsn-master .jsn-bootstrap .hide {
+    display: none;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content hr {
+    margin: 10px 0;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content span.required {
+    color: red;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+    padding: 10px;
+    transition: background 0.3s ease-out;
+    -moz-transition: background 0.3s ease-out;
+    -webkit-transition: background 0.3s ease-out;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group.ui-state-highlight {
+    background: none;
+    border-color: #FBEED5;
+    background-color: #FCF8E3;
+    position: static;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-style-dark .jsn-form-content .control-group.ui-state-highlight {
+    border-color: #666;
+    background-color: #444;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-label {
+    font-weight: bold;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap form.form-horizontal .jsn-form-content .control-group .row-fluid,
+.jsn-uniform.jsn-master .jsn-bootstrap form.form-horizontal .jsn-form-content .control-group .row-fluid [class*="span"] input {
+    margin-bottom: 10px;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group .radio,
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group .checkbox {
+    display: inline-block;
+    width: 100%;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group .jsn-value-Others {
+    display: block;
+}
+.ui-daterangepickercontain {
+    text-align: left;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap input[type="file"] {
+    height: 24px;
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .placeholder { color: #aaa; }
+.jsn-uniform.jsn-master .jsn-bootstrap select {
+	height: auto;
+}
+.jsn-master .jsn-bootstrap .jsn-inline{
+	display: inline;
+}
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+.jsn-uniform.jsn-master .jsn-bootstrap .btn.btn-icon [class^="icon-"], .jsn-master .jsn-bootstrap .btn.btn-icon [class*=" icon-"]{
+	margin: 0;
+}
+.jsn-master .jsn-bootstrap .jsn-style-dark .ui-state-highlight{
+	  text-shadow: none;
+}
+.jsn-master .jsn-bootstrap .currency-value,
+.jsn-master .jsn-bootstrap .currency-cents {
+	float: left;
+}
+.jsn-master .jsn-bootstrap .currency-cents {
+	margin-left: 15px;
+}
+.jsn-master .jsn-bootstrap .currency-cents:before {
+	content: ".";
+	display: block;
+	width: 5px;
+	position: absolute;
+	margin-left: -9px;
+	margin-top: 5px;
+}
+.jsn-master .jsn-bootstrap .currency-cents .controls-inner input {
+	margin: 0;
+}
+.jsn-master .jsn-bootstrap .currency-value .jsn-help-block-inline,
+.jsn-master .jsn-bootstrap .currency-cents .jsn-help-block-inline {
+	font-size: 13px;
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+}
+.jsn-master .jsn-bootstrap .currency-value .jsn-help-block-inline {
+	margin-left: 30px;
+}
+.jsn-master .jsn-bootstrap .jsn-field-prefix {
+    margin: 4px;
+}
+/**
+Fix captcha google
+**/
+html[dir="rtl"] .jsn-master .jsn-bootstrap #recaptcha_area #recaptcha_response_field{
+    right: 0;
+}
+html[dir="rtl"] .jsn-master .jsn-bootstrap #recaptcha_area .recaptcha_r2_c1{
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll -27px 0 transparent;
+    height: 57px;
+    width: 9px;
+}
+html[dir="rtl"] .jsn-master .jsn-bootstrap #recaptcha_area .recaptchatable .recaptcha_r2_c2 {
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll -18px 0 transparent;
+    height: 57px;
+    width: 9px;
+}
+html[dir="rtl"] .jsn-master .jsn-bootstrap #recaptcha_area .recaptchatable .recaptcha_r3_c1 {
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll -9px 0 transparent;
+    height: 63px;
+    width: 9px;
+}
+html[dir="rtl"] .jsn-master .jsn-bootstrap #recaptcha_area .recaptchatable .recaptcha_r3_c3 {
+    background: url("http://www.google.com/recaptcha/api/img/white/sprite.png") no-repeat scroll 0 0 transparent;
+    height: 63px;
+    width: 9px;
+}
+/*==================== SUBMISSIONS MANAGER ====================*/
+#submissions-list table .data_created_at,
+#submissions-list table .data_created_by,
+#submissions-list table .data_browser,
+#submissions-list table .data_country,
+#submissions-list table .data_ip {
+    width: 100px;
+}
+#submissions-list table .data_os {
+    width: 130px;
+}
+#submissions-list .jsn-bglabel {
+    padding: 100px 50px;
+    font-size: 24px;
+    color: #666;
+}
+#submission-fields-list {
+    min-height: 300px;
+    position: absolute;
+    width: 320px;
+}
+#form_field {
+    width: 100%;
+    float: left;
+}
+.nofield{
+    color: #CC0000;
+    float: left;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#form_field.jsn-items-list{
+    border: 1px solid #CCCCCC;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 5px;
+}
+.pane-sliders{
+    position: static;
+}
+#form_field label,
+#form_field input,
+#submission-fields-list label,
+#submission-fields-list input {
+    float: none;
+    margin: 0 5px 0 0;
+}
+#submission-fields-list .popover-content {
+    padding: 0;
+}
+#submission-fields-list .jsn-items-list {
+    height: 300px;
+    border: none;
+    overflow: auto;
+}
+#submission-fields-list .jsn-item,
+#form_field .jsn-item{
+    padding: 5px;
+}
+#submission-fields-list .field-disabled,
+#form_field .field-disabled
+{
+    cursor: default;
+}
+#submission-fields-list hr ,
+#form_field hr {
+    margin: 10px 0;
+}
+#submission-fields-list .form-actions {
+    border-top: 1px solid #ccc;
+    margin: 0;
+}
+#submission-fields-list .form-actions .btn {
+    float: none;
+}
+#submission-fields-list .popover {
+    width: 100%;
+}
+.jsn-bootstrap .jsn-submission-btn-save {
+    text-align: right;
+}
+.jsn-bootstrap .jsn-fieldset-filter {
+    margin:  10px 0px;
+}
+#submission-fields-list {
+    text-align: left;
+}
+/*==================== SUBMISSION SETINGS ====================*/
+#submission-settings .submission-data h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+#submission-settings .submission-data dt {
+    font-size: 14px;
+    color: #000;
+}
+#submission-settings .submission-data dd {
+    margin: 5px 0px 15px 0;
+}
+#submission-settings .submission-data .thumbnail {
+    display: inline-block;
+}
+#submissions-list img,
+#submission-settings .submission-data .thumbnail > img {
+    max-height: 200px;
+}
+#submission-settings .submission-content {
+    position: relative;
+}
+#submission-settings .jsn-page-actions {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+#submission-settings .jsn-form-bar {
+    z-index: 1;
+    position: relative;
+}
+.jsn-master #submission-settings .jsn-tabs .jsn-section-content{
+    border: none;
+}
+.jsn-master .jsn-section-header a{
+    text-shadow: none;
+}
+.jsn-master .jsn-bootstrap .jsn-section-header .btn .caret{
+    margin-bottom: auto;
+}
+/************************************************************************************
+smartphone layout (320 - 480): everything is layout in single column
+*************************************************************************************/
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+    .jsn-master .jsn-input-mini-fluid,
+    .jsn-master .jsn-input-small-fluid,
+    .jsn-master .jsn-input-medium-fluid,
+    .jsn-master .jsn-input-xlarge-fluid,
+    .jsn-master .jsn-input-fluid,
+    .jsn-master .jsn-columns-container.jsn-columns-count-two .jsn-column-item,
+    .jsn-master .jsn-columns-container.jsn-columns-count-three .jsn-column-item,
+    .jsn-master .jsn-columns-container.jsn-columns-count-no .jsn-column-item,
+    .jsn-master .jsn-bootstrap .input-small,
+    .jsn-master .jsn-bootstrap .input-medium,
+    .jsn-master .jsn-bootstrap .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
+        width: 95% !important;
+    }
+    .jsn-master .jsn-form-container label {
+        display: block;
+        float: none !important;
+        text-align: left !important;
+    }
+    .jsn-master .jsn-form-container label + .controls {
+        margin-left: 0;
+    }
+    .jsn-master .jsn-daterangepicker.hasDatepicker {
+        width: 85% !important;
+    }
+    .jsn-master .jsn-bootstrap .jsn-column-item.jsn-uniform-others {
+        clear: both;
+    }
+    .jsn-master .jsn-bootstrap .row-fluid .span6 {
+        clear: both;
+        margin-left: 0;
+        width: 100%;
+    }
+}

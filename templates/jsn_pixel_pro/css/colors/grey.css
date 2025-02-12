@@ -1,0 +1,100 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+::selection {
+	color: #FFF;
+	background: #b34c35;
+}
+::-moz-selection {
+	color: #FFF;
+	background: #b34c35;
+}
+::-webkit-selection {
+	color: #FFF;
+	background: #b34c35;
+}
+a {
+	color: #D64740;
+}
+#jsn-master {
+	background: #FFF url(../../images/colors/grey/bg-body.png) center top;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - CONTENT TOP AREA =============== */
+#jsn-content-top,
+#jsn-promo {
+	color: #DDD;
+    background: #666 url(../../images/colors/grey/bg-master.png);
+}
+/* =============== LAYOUT - CONTENT BOTTOM AREA =============== */
+#jsn-content-bottom {
+	color: #DDD;
+	background: #333 url(../../images/colors/grey/bg-master.png);
+}
+/* =============== LAYOUT - FOOTER AREA #jsn-footer {
+	background: #333 url(../../images/colors/grey/bg-master.png);
+	color: #DDD;
+}=============== */
+
+#jsn-content-bottom + #jsn-footer #jsn-footer-inner {
+	border-top: 1px solid #666;
+}
+#jsn-gotoplink:hover {
+	background-color: #333;
+	color: #fff;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+.link-action {
+	border-bottom: 1px dotted #D64740;
+}
+.link-action:hover {
+	background-color: #D64740;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #666666;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes td,
+table.style-colorstripes th {
+	border-bottom: 1px solid #BBBBBB;
+	border-right: 1px groove #BBBBBB;
+}
+table.style-colorstripes thead th {
+	background-color: #666666;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #333;
+}
+table.style-colorstripes tbody tr {
+	background-color: #959595;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #4D4D4D;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #7E7E7E;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #606060;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #737373;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #737373;
+}
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+	border-left: none;
+	border-right: 1px solid #BBBBBB;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes 

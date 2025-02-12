@@ -1,0 +1,4 @@
+[10-Dec-2014 16:25:09 America/New_York] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[10-Dec-2014 16:25:09 America/New_York] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+[16-Dec-2014 17:24:35 America/New_York] PHP Warning:  Module 'pdo_sqlite' already loaded in Unknown on line 0
+[16-Dec-2014 17:24:35 America/New_York] PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0

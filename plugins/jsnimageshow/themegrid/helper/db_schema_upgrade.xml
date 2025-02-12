@@ -1,0 +1,22 @@
+<product name="Theme Grid" type="plugin">
+	<version number="1.0.0">
+		<release_date>5/6/2012</release_date>
+		<tables>
+			<table id="1" status="ADDED" name="#__imageshow_theme_grid">
+				<field id="1" status="ADDED" name="theme_id" type="int(11) unsigned"
+					primary_key="yes" />
+				<field id="2" status="ADDED" name="img_layout" type="char(5)" />
+				<field id="3" status="ADDED" name="thumbnail_width" type="int(11)" />
+				<field id="4" status="ADDED" name="thumbnail_height" type="int(11)" />
+				<field id="5" status="ADDED" name="thumbnail_space" type="int(11)" />
+				<field id="6" status="ADDED" name="thumbnail_border" type="int(11)" />
+				<field id="7" status="ADDED" name="thumbnail_rounded_corner"
+					type="int(11)" />
+				<field id="8" status="ADDED" name="thumbnail_border_color"
+					type="char(30)" />
+				<field id="9" status="ADDED" name="thumbnail_shadow" type="char(1)" />
+				<field id="10" status="ADDED" name="background_color" type="char(30)" />
+			</table>
+		</tables>
+	</version>
+</product>

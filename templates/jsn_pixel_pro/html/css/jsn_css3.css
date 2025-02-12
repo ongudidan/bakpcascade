@@ -1,0 +1,328 @@
+/* ============================== CSS3 EFFECTS ============================== */
+/* ----- GENERAL ----- */
+::selection {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+::-moz-selection {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+::-webkit-selection {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+
+body#jsn-master.jsn-color-blue {
+	background-image: url(../images/backgrounds/bg-master-gradient.png), url(../images/colors/blue/bg-body.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat, repeat;
+	background: #DDD url(../images/colors/blue/bg-body.png)\9;
+}
+body#jsn-master.jsn-color-red {
+	background-image: url(../images/backgrounds/bg-master-gradient.png), url(../images/colors/red/bg-body.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat, repeat;
+	background: #DDD url(../images/colors/red/bg-body.png)\9;
+}
+body#jsn-master.jsn-color-green {
+	background-image: url(../images/backgrounds/bg-master-gradient.png), url(../images/colors/green/bg-body.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat, repeat;
+	background: #DDD url(../images/colors/green/bg-body.png)\9;
+}
+body#jsn-master.jsn-color-yellow {
+	background-image: url(../images/backgrounds/bg-master-gradient.png), url(../images/colors/yellow/bg-body.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat, repeat;
+	background: #DDD url(../images/colors/yellow/bg-body.png)\9;
+}
+body#jsn-master.jsn-color-pink {
+	background-image: url(../images/backgrounds/bg-master-gradient.png), url(../images/colors/pink/bg-body.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat, repeat;
+	background: #DDD url(../images/colors/pink/bg-body.png)\9;
+}
+body#jsn-master.jsn-color-grey {
+	background-image: url(../images/backgrounds/bg-master-gradient.png), url(../images/colors/grey/bg-body.png);
+	background-position: center top, center top;
+	background-repeat: no-repeat, repeat;
+	background: #DDD url(../images/colors/grey/bg-body.png)\9;
+}
+/* ----- BLOCKS SHADOW ----- */
+#jsn-menu-inner,
+#jsn-promo,
+#jsn-content-top,
+#jsn-pos-breadcrumbs,
+#jsn-pos-user-top,
+#jsn-usermodules1, #jsn-usermodules2,
+#jsn-mainbody-content,
+#jsn-pos-user-bottom,
+#jsn-leftsidecontent div[class*=lightbox-], #jsn-leftsidecontent div[class*=solid-], #jsn-leftsidecontent div[class*=richbox-],
+#jsn-rightsidecontent div[class*=lightbox-], #jsn-rightsidecontent div[class*=solid-], #jsn-rightsidecontent div[class*=richbox-] {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1);	
+}
+/* ----- READ MORE ----- */
+body.jsn-css3 .readon {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+body.jsn-css3 .readon:hover {
+}
+/* ----- GO TOP LINK ----- */
+body.jsn-css3 #jsn-gotoplink {
+	transition: color 0.3s linear, background 0.3s ease-out;
+	-moz-transition: color 0.3s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.3s linear, background 0.3s ease-out;
+	box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+/* ----- TYPOGRAPHY STYLE ----- */
+/* TEXT STYLES */
+body.jsn-css3 .text-box {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 2px #999999;
+	-moz-box-shadow: 0px 0px 2px #999999;
+	-webkit-box-shadow: 0px 0px 2px #999999;
+}
+body.jsn-css3 .text-box-highlight {
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+body.jsn-css3 .text-box-highlight:hover {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 2px #999999;
+	-moz-box-shadow: 0px 0px 2px #999999;
+	-webkit-box-shadow: 0px 0px 2px #999999;
+}
+body.jsn-css3 .text-highlight {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+/* LINK STYLES */
+body.jsn-css3 .link-button {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+body.jsn-css3 .link-button:hover {
+	
+}
+body.jsn-css3 .link-button,
+body.jsn-css3 .link-button a {
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+body.jsn-css3 .link-action {
+	transition: color 0.3s linear, background 0.3s ease-out;
+	-moz-transition: color 0.3s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.3s linear, background 0.3s ease-out;
+}
+body.jsn-css3 .link-action:hover {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+body.jsn-css3 .link-highlight {
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+body.jsn-css3 .link-highlight:hover {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 2px #999999;
+	-moz-box-shadow: 0px 0px 2px #999999;
+	-webkit-box-shadow: 0px 0px 2px #999999;
+}
+/* TABLE STYLES */
+body.jsn-css3 table.table-style th,
+body.jsn-css3 table.table-style td {
+	transition: background 0.3s ease-out;
+	-moz-transition: background 0.3s ease-out;
+	-webkit-transition: background 0.3s ease-out;
+}
+/* LIST STYLES */
+ul.list-number-bullet li .jsn-listbullet {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+ul.list-number-bullet.bullet-blue li .jsn-listbullet {
+	background-color: #4F84B7;
+	border: 1px solid #2C5E8D;
+}
+ul.list-number-bullet.bullet-green li .jsn-listbullet {
+	background: #80A043;
+	border: 1px solid #739237;
+}
+ul.list-number-bullet.bullet-grey li .jsn-listbullet {
+	background: #EFEFEF;
+	border: 1px solid #E2E2E2;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+ul.list-number-bullet.bullet-orange li .jsn-listbullet {
+	background: #DC904D;
+	border: 1px solid #CE8341;
+}
+ul.list-number-bullet.bullet-red li .jsn-listbullet {
+	background: #BF3F3F;
+	border: 1px solid #B33535;
+}
+ul.list-number-bullet.bullet-violet li .jsn-listbullet {
+	background: #F3667D;
+	border: 1px solid #DD566C;
+}
+/* FORM STYLE */
+body.jsn-css3 .inputbox {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	transition: color 0.1s linear, background 0.3s ease-out, border-color 0.3s;
+	-moz-transition: color 0.1s linear, background 0.3s ease-out, border-color 0.3s;
+	-webkit-transition: color 0.1s linear, background 0.3s ease-out, border-color 0.3s;
+}
+body.jsn-css3 .button {
+	background: #DDD;
+	padding: 2px 5px;
+	cursor: pointer;
+	border: 1px solid #CFCFCF;
+	color: #444;
+	text-shadow: 0px 1px 0 rgba(255,255,255,0.5);
+	-webkit-border-radius: 2px;
+	 -moz-border-radius: 2px;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+body.jsn-css3 .button:hover,
+body.jsn-css3 .button:active {
+	background: #EEE;
+	border-color: # E2E2E2;
+}
+/* ----- MENU STYLES ----- */
+body.jsn-css3 ul.menu-mainmenu li a,
+body.jsn-css3 ul.menu-sidemenu li a,
+body.jsn-css3 ul.menu-treemenu li a {
+	transition: color 0.1s linear, background-color 0.3s ease-out, background-position 0s;
+	-moz-transition: color 0.1s linear, background-color 0.3s ease-out, background-position 0s;
+	-webkit-transition: color 0.1s linear, background-color 0.3s ease-out, background-position 0s;
+}
+body.jsn-css3 ul.menu-mainmenu li > ul,
+body.jsn-css3 ul.menu-sidemenu li > ul {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+body.jsn-css3 ul.menu-mainmenu li:hover > ul,
+body.jsn-css3 ul.menu-sidemenu li:hover > ul {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ul.menu-divmenu li {
+	border-right-color: rgba(255,255,255,0.4);
+}
+ul.menu-topmenu li a {
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+ul.menu-topmenu li:hover a,
+ul.menu-topmenu li.active a {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+div[class*=richbox-] ul.menu-sidemenu.menu-richmenu > li > a .jsn-menudescription,
+div[class*=solid-] ul.menu-sidemenu.menu-richmenu > li > a .jsn-menudescription {
+	color: rgba(255,255,255,0.7) !important;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+div[class*=richbox-] ul.menu-sidemenu.menu-richmenu > li:hover > a .jsn-menudescription,
+div[class*=richbox-] ul.menu-sidemenu.menu-richmenu > li.active > a .jsn-menudescription,
+div[class*=solid-] ul.menu-sidemenu.menu-richmenu > li:hover > a .jsn-menudescription,
+div[class*=solid-] ul.menu-sidemenu.menu-richmenu > li.active > a .jsn-menudescription {
+	color: rgba(255,255,255,1) !important;
+}
+/* ----- SITE TOOLS ----- */
+body.jsn-css3 ul#jsn-sitetools-menu li ul {
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	transition: opacity .3s;
+}
+body.jsn-css3 ul#jsn-sitetools-menu li:hover ul {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+body.jsn-css3 ul#jsn-sitetools-menu li,
+body.jsn-css3 ul#jsn-sitetools-inline li {
+	transition: background 0.3s ease-out;
+	-moz-transition: background 0.3s ease-out;
+	-webkit-transition: background 0.3s ease-out;
+}
+#jsn-menu .jsn-modulecontent > .jsn-menu-toggle {
+	transition: background 0.3s ease-out;
+	-moz-transition: background 0.3s ease-out;
+	-webkit-transition: background 0.3s ease-out;
+}
+#jsn-menu .jsn-modulecontent > .jsn-menu-toggle.active {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+/* ----- TEXT SHADOW ----- */
+#jsn-gotoplink:hover,
+#jsn-promo div.jsn-modulecontainer,
+#jsn-content-top div.jsn-modulecontainer,
+#jsn-content-bottom div.jsn-modulecontainer,
+#jsn-footer div.jsn-modulecontainer,
+div[class*="richbox-"] .jsn-modulecontent,
+div[class*="solid-"],
+div[class*="box-"] h3.jsn-moduletitle,
+div.jsn-modulecontainer ul.menu-topmenu li:hover a,
+div.jsn-modulecontainer ul.menu-topmenu li.active a,
+div.jsn-modulecontainer ul.menu-treemenu li > a:hover,
+div.jsn-modulecontainer ul.menu-treemenu li > a.current,
+div.jsn-modulecontainer ul.menu-mainmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu > li.active > a,
+div.jsn-modulecontainer ul.menu-mainmenu ul > li.active > a,
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu > li.active > a,
+div.jsn-modulecontainer ul.menu-sidemenu ul > li.active > a,
+div.jsn-modulecontainer ul.menu-mainmenu ul li a {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+.link-button {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+.link-button.button-light {
+	text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+}
+/* ----- OVERRIDE JOOMLA 30 ----- */
+.jsn-joomla-30 .calendar .button {
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+}

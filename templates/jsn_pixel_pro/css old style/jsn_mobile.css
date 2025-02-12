@@ -1,0 +1,61 @@
+/************************************************************************************
+ mobile layout (240 - 1023): common settings for both smartphone and tablet
+*************************************************************************************/
+@media only screen and (max-width: 960px),
+(max-device-width: 960px) {
+	body {
+		font-size: 14px !important;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		width: auto\9; /* ie8 */
+	}
+	#jsn-header,
+	#jsn-headerright,
+	#jsn-promo,
+	#jsn-content-top,
+	#jsn-content,
+	#jsn-pos-breadcrumbs,
+	#jsn-pos-user-top,
+	#jsn-usermodules1,
+	#jsn-usermodules2,
+	#jsn-mainbody-content,
+	#jsn-pos-user-bottom {
+		margin-bottom: 10px;
+	}
+	#jsn-page {
+		min-width: inherit;
+	}
+	#jsn-header-inner,
+	#jsn-body-inner,
+	#jsn-content-bottom-inner,
+	#jsn-footer-inner {
+		width: auto !important;
+		margin: 0 10px;
+	}
+	#jsn-header-inner,
+	#jsn-headerright-wrapper {
+		position: static;
+	}
+	#jsn-menu-inner-1 {
+		padding-left: 0;
+	}
+	body.jsn-direction-rtl #sn-menu-inner-1 {
+		padding-right: 0;
+	}
+	div.jsn-modulecontainer {
+		margin-top: 10px;
+	}
+	div.jsn-modulescontainer div.jsn-modulecontainer_inner {
+		margin: 10px 5px;
+	}
+	#jsn-footer div.jsn-modulecontainer_inner {
+		margin: 10px;
+	}
+	#jsn-pos-user-top,
+	#jsn-pos-user-bottom,
+	#mainbody-content-inner4,
+	#jsn-mainbody,
+	#jsn-pos-innerleft_inner,
+	#jsn-pos-

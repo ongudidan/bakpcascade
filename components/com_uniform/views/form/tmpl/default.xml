@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="JSN_UNIFORM_VIEW_FORM" option="JSN_UNIFORM_VIEW_FORM">
+		<help key = "MENU_JSNUNIFORM_LAYOUT" />
+		<message>
+			<![CDATA[JSN_UNIFORM_VIEW_FORM]]>
+		</message>
+	</layout>
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_uniform/elements">
+			
+			<field name="form_id" type="jsnlistform" section="com_uniform" default="0" label="JSN_UNIFROM_SELECT_FORM" description="JSN_UNIFORM_SELECT_FORM_DES" />
+			
+		</fieldset>
+	</fields>
+</metadata>
