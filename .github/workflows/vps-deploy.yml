@@ -1,0 +1,61 @@
+
+name: Deploy bakpcascade to VPS with Docker
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v3  # ✅ Upgraded to v3
+
+      # Step 2: Set up Docker Buildx (Fixed deprecated warnings)
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2  # ✅ Upgraded to v2
+
+      # Step 3: Set up SSH agent to authenticate with the VPS using the private SSH key
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.9.0  # ✅ Upgraded to latest version
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      # Step 4: SSH into VPS and deploy Docker container with retry mechanism
+      - name: SSH into VPS and deploy Docker container
+        run: |
+          RETRIES=5
+          DELAY=1
+
+          for ((i=1; i<=RETRIES; i++)); do
+            echo "Attempt $i to SSH into the VPS..."
+            
+            ssh -o StrictHostKeyChecking=no root@62.171.158.144 "
+              # Ensure the projects directory exists
+              mkdir -p /var/www/html/projects &&
+
+              # Clone the repository if it doesn't exist
+              if [ ! -d /var/www/html/projects/bakpcascade ]; then
+                git clone git@github.com:ongudidan/bakpcascade.git /var/www/html/projects/bakpcascade
+              fi &&
+
+              # Navigate to the project directory
+              cd /var/www/html/projects/bakpcascade &&
+
+              # Reset and pull latest code
+              git reset --hard origin/main &&
+              git pull origin main &&
+
+              # Restart the Docker containers
+              docker compose down &&
+              docker compose up --build -d
+            " && break
+
+            echo "SSH attempt $i failed. Retrying in $DELAY seconds..."
+            sleep $DELAY
+          done
+
