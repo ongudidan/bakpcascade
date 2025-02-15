@@ -14,7 +14,7 @@ class JConfig {
 	public $dbtype = 'mysqli';
 	public $host = 'mariadb';
 	public $user = 'root';
-	public $password = 'root';
+	public $password = '7bSvaUsHpFYI9p!A';
 	public $db = 'bakpcascade';
 	public $dbprefix = 'afrxx_';
 	public $live_site = '';

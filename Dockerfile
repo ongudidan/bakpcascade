@@ -1,8 +1,4 @@
-# Use PHP 5.6 with an older Debian base
-# FROM php:5.6-apache
-
 FROM nibrev/php-5.3-apache
-
 
 # Set working directory
 WORKDIR /var/www/html
